@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -16341,7 +16341,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R2010" package3d_urn="urn:adsk.eagle:package:23551/2" value="47"/>
 <part name="IC1" library="obddiag-net" deviceset="555" device="" value="ICM7555"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="obddiag-net" deviceset="CPOL_0805" device="" value="22uF"/>
+<part name="C1" library="obddiag-net" deviceset="CPOL_0805" device="" value="10uF"/>
 <part name="R4" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1" value="250K"/>
 <part name="R2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="TRIM_US-" device="B25P" package3d_urn="urn:adsk.eagle:package:22684/1" value="1M"/>
 </parts>
@@ -16365,7 +16365,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </instance>
 <instance part="GND7" gate="1" x="66.04" y="15.24" smashed="yes"/>
 <instance part="D2" gate="G$1" x="73.66" y="38.1" smashed="yes">
-<attribute name="NAME" x="77.978" y="30.226" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="77.216" y="33.528" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="D1" gate="G$1" x="22.86" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.892" y="27.178" size="1.778" layer="95" rot="R270"/>
