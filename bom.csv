@@ -1,0 +1,15 @@
+﻿Parts,Value,Package,Description,Note
+J1,,USB-A-H,USB type a plug right angle t/h,
+J2,,USB-A-FEMALE,USB type A receptacle right angle t/h,
+C1,10uF 10V,0805,Tantalum SMD capacitor,
+C2,10uF 10V,0805,Ceramic SMD capacitor,
+R1,2.2M,0805,SMD resistor,
+R2,1M,3306P,Bourns 3306P-1-254,
+R3,100K,0805,SMD resistor,
+R4,250K,B25P,Bourns 3306P-1-254,
+R5,47,R2010,SMD resistor,
+R6,330,0805,SMD resistor,
+D1,1N4148,SOD123,SMD diode,
+D2,Red,0805,SMD LED,
+Q1,DMN6140L,SOT23,DMN6140L-13,Could be TLC555 or other CMOS 555 timers
+IC1,ICM7555,SO-8,CMOS 555 timer,"Could be PMV450ENEA, NDS7002A"
